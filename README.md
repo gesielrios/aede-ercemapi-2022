@@ -5,7 +5,7 @@
 # AEDE-ERCEMAPI-2022
 
 Repositório com material utilizado no Minicurso: Análise Exploratória de Dados Espaciais com Python apresentado na X ESCOLA REGIONAL DE COMPUTAÇÃO
-CEARÁ, MARANHÃO E PIAUÍ - ERCEMAPI 2022
+CEARÁ, MARANHÃO E PIAUÍ ERCEMAPI 2022
 
 ## Resumo
 
@@ -13,22 +13,22 @@ O desenvolvimento acentuado de tecnologias para análise de dados no espaço geo
 
 O Minicurso cobrirá os seguintes tópicos, usando Jupyter Notebooks e exercícios práticos com dados do mundo real:
 
-- Introdução
-- Dados Espaciais
-- Matrizes de ponderação espacial
-- Mapas coropléticos
-- Autocorrelação espacial global
-- Autocorrelação espacial local
+Introdução
+Dados Espaciais
+Matrizes de ponderação espacial
+Mapas coropléticos
+Autocorrelação espacial global
+Autocorrelação espacial local
 
 ## 🧪 Tecnologias
 
 Este Minicurso exigirá instalações recentes de:
 
-- python v3.9
-- matplotlib
-- geopandas
-- pysal
-- [Jupyter Notebook or Lab] (http://jupyter.org)
+python v3.9
+matplotlib
+geopandas
+pysal
+[Jupyter Notebook or Lab] (http://jupyter.org)
 
 Se você ainda não tem esses pacotes instalados, recomendamos usar o gerenciador de pacotes conda para instalar todos os requisitos (você pode instalar o miniconda ou instalar a (maior) distribuição Anaconda, encontrada em https://www.anaconda.com/download /).
 
@@ -50,12 +50,12 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 
 # creating the environment
-conda create --n aede-ercemapi-2022 --file environment.yml
+conda create -n aede-ercemapi-2022 python=3.9
 # activating the environment
 conda activate aede-ercemapi-2022
+# dependencies install
+pip install -r requirements.txt
 ```
-
-Alternativamente, você pode instalar os pacotes usando conda manualmente, ou você pode usar outra distribuição (por exemplo, Enthought Canopy) ou `` pip``, contanto que você tenha os pacotes acima instalados. Nesse caso, consulte as instruções de instalação dos pacotes individuais.
 
 ## 🎓 Agredecimentos
 
